@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cheeses",
+      "handler": "cheeses.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cheeses/count",
+      "handler": "cheeses.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cheeses/:id",
+      "handler": "cheeses.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cheeses",
+      "handler": "cheeses.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cheeses/:id",
+      "handler": "cheeses.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cheeses/:id",
+      "handler": "cheeses.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
